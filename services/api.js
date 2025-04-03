@@ -1,6 +1,8 @@
 const API_BASE_URL = "https://brd.devclick.net/wp-json/wp/v2";
 import { cache } from "react";
 
+export const language = "en";
+
 /**
  * Universal fetch function
  * @param {string} endpoint - API endpoint

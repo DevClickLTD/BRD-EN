@@ -1,4 +1,4 @@
-import { fetchAPI } from "./api";
+import { fetchAPI, language } from "./api";
 import { cache } from "react";
 
 /**
@@ -7,7 +7,7 @@ import { cache } from "react";
  */
 export const getServices = cache(async () => {
   return await fetchAPI(
-    "services?_fields=id,slug,yoast_head_json,date,title,content&per_page=100",
+    `services?_fields=id,slug,yoast_head_json,date,title,content&per_page=100&lang=${language}`,
     {
       next: { revalidate: 60 },
     }
@@ -20,7 +20,7 @@ export const getServices = cache(async () => {
  */
 export const getServicesNav = cache(async () => {
   return await fetchAPI(
-    "services?_fields=id,slug,yoast_head_json,title&per_page=16"
+    `services?_fields=id,slug,yoast_head_json,title&per_page=16&lang=${language}`
   );
 });
 
@@ -31,7 +31,7 @@ export const getServicesNav = cache(async () => {
  */
 export const getServiceBySlug = cache(async (slug) => {
   return await fetchAPI(
-    `services?slug=${slug}&_fields=id,slug,yoast_head_json,date,title,content`
+    `services?slug=${slug}&_fields=id,slug,yoast_head_json,date,title,content&lang=${language}`
   );
 });
 
@@ -41,5 +41,5 @@ export const getServiceBySlug = cache(async (slug) => {
  * @returns {Promise<Array>} - List of services in category
  */
 export const getServicesByCategory = cache(async (categoryId) => {
-  return await fetchAPI(`services?categories=${categoryId}`);
+  return await fetchAPI(`services?categories=${categoryId}&lang=${language}`);
 });

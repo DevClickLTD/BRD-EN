@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import { language } from "@/services/api";
 export const metadata = {
   title: "Блог - Адвокатско дружество „Бурков, Радев, Дюлгерска“",
   description:
@@ -14,7 +14,7 @@ export default async function Blog({ searchParams }) {
 
   // Fetch posts from WordPress API with caching enabled
   const response = await fetch(
-    `https://brd.devclick.net/wp-json/wp/v2/posts?page=${currentPage}&per_page=${perPage}&_fields=id,yoast_head_json,date,slug,title,content`,
+    `https://brd.devclick.net/wp-json/wp/v2/posts?page=${currentPage}&per_page=${perPage}&_fields=id,yoast_head_json,date,slug,title,content&lang=${language}`,
     {
       next: { revalidate: 120 },
     }
