@@ -25,6 +25,16 @@ export const getServicesNav = cache(async () => {
 });
 
 /**
+ * Get services for footer navigation
+ * @returns {Promise<Array>} - List of services for footer
+ */
+export const getServicesForFooter = cache(async () => {
+  return await fetchAPI(
+    `services?_fields=id,slug,title&per_page=12&orderby=title&order=asc&lang=${language}`
+  );
+});
+
+/**
  * Get a single service by slug
  * @param {string} slug - Service slug
  * @returns {Promise<Object|null>} - Service data
