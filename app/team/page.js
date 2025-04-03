@@ -12,7 +12,19 @@ export default async function Team() {
   const members = await getMembers();
 
   if (!members || members.length === 0) {
-    throw new Error("Team members not found");
+    return (
+      <div className="bg-white py-24">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
+          <h1 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
+            Нашият екип
+          </h1>
+          <p className="mt-6 text-lg/8 text-gray-600">
+            В момента няма налична информация за членовете на екипа. Моля,
+            опитайте отново по-късно.
+          </p>
+        </div>
+      </div>
+    );
   }
 
   return (
