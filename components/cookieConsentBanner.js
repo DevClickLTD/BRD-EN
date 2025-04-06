@@ -13,8 +13,8 @@ const CookieConsentBanner = () => {
       location="bottom"
       cookieName="brdLawCookieConsent"
       expires={365}
-      buttonText="Приемам"
-      declineButtonText="Отказвам"
+      buttonText="Accept"
+      declineButtonText="Decline"
       enableDeclineButton
       style={{
         background: "#2B373B",
@@ -41,16 +41,16 @@ const CookieConsentBanner = () => {
         borderRadius: "6px",
       }}
       onAccept={() => {
-        console.log("Потребителят е приел бисквитките");
+        console.log("The user has accepted the cookies");
       }}
       onDecline={() => {
-        console.log("Потребителят е отказал бисквитките");
+        console.log("The user has declined the cookies");
       }}
     >
       <p className="text-sm md:text-base">
-        Използваме бисквитки за подобряване на услугите.{" "}
+        We use cookies to improve our services.{" "}
         <Link href="/privacy-policy" className="underline">
-          Научете повече
+          Learn more
         </Link>
         .
       </p>

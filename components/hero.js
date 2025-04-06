@@ -41,7 +41,7 @@ export default function Hero() {
 
           <div className="px-6 py-10">
             <h1 className="text-3xl font-semibold tracking-tight text-pretty text-gray-900 font-display">
-              "Бурков, Радев, Дюлгерска"
+              "Burkov, Radev, Djulgerska"
             </h1>
             <p className="mt-4 text-2xl font-medium font-display">
               Адвокатско дружество
@@ -98,10 +98,10 @@ export default function Hero() {
                     </div>
                   </div>
                   <h1 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-7xl font-display">
-                    "Бурков, Радев, Дюлгерска"
+                    "Burkov, Radev, Djulgerska"
                   </h1>
                   <p className="mt-8 text-4xl font-medium font-display">
-                    Адвокатско дружество
+                    Law firm
                   </p>
                   <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8 font-display">
                     Кантората е основана през 2016 г., обединявайки екип от
@@ -117,13 +117,13 @@ export default function Hero() {
                       href="/services"
                       className="rounded-md bg-[#95161C] hover:bg-gray-300 hover:text-[#000000] px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
-                      Сфери на дейност
+                      Practice Areas
                     </Link>
                     <Link
                       href="/contact"
                       className="text-sm/6 font-semibold text-gray-900"
                     >
-                      Контакти <span aria-hidden="true">→</span>
+                      Contacts <span aria-hidden="true">→</span>
                     </Link>
                   </div>
                 </div>

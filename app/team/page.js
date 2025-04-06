@@ -16,11 +16,11 @@ export default async function Team() {
       <div className="bg-white py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
           <h1 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
-            Нашият екип
+            Team
           </h1>
           <p className="mt-6 text-lg/8 text-gray-600">
-            В момента няма налична информация за членовете на екипа. Моля,
-            опитайте отново по-късно.
+            At the moment, there is no available information about the team.
+            Please try again later. опитайте отново по-късно.
           </p>
         </div>
       </div>
@@ -34,12 +34,12 @@ export default async function Team() {
           <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-12 text-center shadow-2xl sm:px-12">
             <div className="mx-auto max-w-2xl text-center">
               <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-                Нашият екип
+                Team
               </h1>
               <p className="mt-6  text-lg/8 text-white">
-                Нашиите адвокати има богат опит в консултирането на медии,
-                телекомуникации, маркетинг, реклама, съдържание и нови
-                технологии.
+                Our lawyers have a rich experience in consulting media,
+                telecommunications, marketing, advertising, content and new
+                technologies.
               </p>
             </div>
             <svg
@@ -68,22 +68,21 @@ export default async function Team() {
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-20 px-6 lg:px-8 xl:grid-cols-5">
           <div className="w-full xl:max-w-2xl xl:col-span-2 order-last xl:order-first">
             <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-              За екипа
+              About the team
             </h2>
             <p className="mt-6 text-lg/8 text-gray-600">
-              Екипът на Адвокатско дружество „Бурков, Радев, Дюлгерска“ съчетава
-              по уникален начин опита, креативността, постоянството и жаждата за
-              знания.
+              The team of Burgov, Radev, Djulgerska Law Firm combines unique
+              experience, creativity, persistence and thirst for knowledge.
             </p>
             <p className="mt-6 text-lg/8 text-gray-600">
-              Предоставяме всеобхватно правно обслужване на физически и
-              юридически лица в следните области на правото: вещно право,
-              семейно и наследствено право, облигационно право, трудово право,
-              търговско право, право на интелектуална собственост, реклама и
-              медии, граждански и административен процес.
+              We provide comprehensive legal services to physical and legal
+              entities in the following areas of law: real estate law, family
+              and inheritance law, collateral law, labor law, commercial law,
+              intellectual property rights, advertising and media, civil and
+              administrative process.
             </p>
             <p className="mt-6 text-lg/8 text-gray-600">
-              Работни езици: български, английски, сръбски, руски, немски.
+              Working languages: Bulgarian, English, Serbian, Russian, German.
             </p>
           </div>
           <ul role="list" className="divide-y divide-gray-200 xl:col-span-3">

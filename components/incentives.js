@@ -27,20 +27,19 @@ export default function Incentives() {
           <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">
             <div>
               <h2 className="text-4xl font-bold tracking-tight text-white">
-                Мисия и принципи
+                Mission and principles
               </h2>
               <p className="mt-4 text-white">
-                Вярваме, че доверието, е в основата на успешния бизнес.
-                Дългогодишните партньорства са нашият най-ценен актив. Чрез
-                професионално отношение и детайлно запознаване с потребностите
-                на своите клиенти, ние се стремим да им предоставяме правна
-                сигурност.
+                We believe that trust is the foundation of a successful
+                business. The longtime partnerships are our most valuable asset.
+                With a professional attitude and detailed acquaintance with the
+                needs of our customers, we strive to provide them with legal
+                certainty.
               </p>
               <p className="mt-4 text-white">
-                Привърженици сме на работата в екип. Обединяваме знанията и
-                личния си опит и разглеждаме всеки конкретен случай от различни
-                аспекти, като по този начин предоставяме на своите клиенти верни
-                и практически ориентирани решения.
+                We support teamwork. We combine knowledge and our personal
+                experience and consider each case from variety of aspects, thus
+                providing our clients with accurate and practical solutions.
               </p>
             </div>
             <img

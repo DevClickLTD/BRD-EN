@@ -22,7 +22,7 @@ export default async function MemberDetails({ params }) {
   const member = await getMemberInfo(slug);
 
   if (!member) {
-    return <div>Членът не е намерен.</div>;
+    return <div>Member not found.</div>;
   }
   return (
     <>

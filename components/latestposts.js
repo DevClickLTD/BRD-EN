@@ -25,7 +25,7 @@ export default function LatestPosts() {
     <div className="bg-white">
       <div className="mx-auto w-full py-0 sm:px-6 sm:py-0 lg:px-0">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:px-16">
-          <h3 className="text-4xl text-white">Последни новини</h3>
+          <h3 className="text-4xl text-white">Latest news</h3>
           {/* Loader */}
           {loading && (
             <div className="flex justify-center mt-10">
@@ -107,7 +107,7 @@ export default function LatestPosts() {
                   </Link>
                 ))
               ) : (
-                <p className="text-gray-600">No posts found.</p>
+                <p className="text-white">No posts found.</p>
               )}
             </div>
           )}

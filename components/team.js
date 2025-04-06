@@ -23,21 +23,19 @@ export default function Team() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-8xl lg:mx-0">
           <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl text-center">
-            Нашият екип
+            Team
           </h2>
           <p className="mt-6 text-lg/8 text-gray-600 text-center">
-            Екипът на Адвокатско дружество „Бурков, Радев, Дюлгерска" съчетава
-            по уникален начин опита, креативността, постоянството и жаждата за
-            знания. Кантората предлага на своите клиенти всеобхватно правно
-            обслужване, в това число и по въпроси, свързани с облигационното,
-            вещното, семейното и наследственото право, търговското и трудовото
-            право, правото на интелектуална собственост, гражданския и
-            административния процес. Нашите адвокати притежават богат опит при
-            консултирането на някои от най-новите и бързоразвиващи сфери на
-            бизнеса, каквито са: медиите (телевизия, радио и интернет),
-            телекомуникациите, маркетинга и рекламата, създаването на
-            съдържание, новите технологии и др. Работни езици: български,
-            английски, сръбски, руски, немски.
+            The team of "Burkov, Radev, Djulgerska" Law Firm uniquely combines
+            the experience, creativity, persistence and thirst for knowledge.
+            The firm offers its clients comprehensive legal services, including
+            issues related to Corporate Law, Real Estate, Labor Law,
+            Intellectual property rights and Litigation.Our lawyers have an
+            extensive experience in consulting some of the newest and fastest
+            growing business areas, such as: Media (TV, Radio and Internet),
+            Telecommunications, Marketing and Advertising, Content creation and
+            New technologies.Working languages: Bulgarian, English, Serbian,
+            Russian and German.
           </p>
         </div>
         <ul

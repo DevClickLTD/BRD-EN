@@ -8,14 +8,14 @@ import Link from "next/link";
 
 const navigation = {
   pages: [
-    { name: "Начало", href: "/" },
-    { name: "Екип", href: "/team" },
-    { name: "Блог", href: "/blog" },
-    { name: "Контакти", href: "/contact" },
+    { name: "Home", href: "/" },
+    { name: "Team", href: "/team" },
+    { name: "Blog", href: "/blog" },
+    { name: "Contacts", href: "/contact" },
   ],
   legal: [
-    { name: "Условия за ползване", href: "#" },
-    { name: "Политика за поверителност", href: "/privacy-policy" },
+    { name: "Terms of Use", href: "#" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
   ],
   social: [
     {

@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { language } from "@/services/api";
 export const metadata = {
-  title: "Блог - Адвокатско дружество „Бурков, Радев, Дюлгерска“",
+  title: "Blog - Burgov, Radev, Djulgerska Law Firm",
   description:
-    "Открийте актуални правни анализи, експертни съвети и новини в блога на Адвокатско дружество „Бурков, Радев, Дюлгерска“. Следете последните тенденции в правото, бизнеса и технологиите.",
+    "Discover the latest legal analysis, expert advice and news in the blog of Burgov, Radev, Djulgerska Law Firm. Follow the latest trends in law, business and technology.",
 };
 
 export default async function Blog({ searchParams }) {
@@ -39,12 +39,11 @@ export default async function Blog({ searchParams }) {
           <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-12 text-center shadow-2xl sm:px-12">
             <div className="mx-auto max-w-2xl text-center">
               <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-                От нашия блог
+                From our blog
               </h1>
               <p className="mt-6 text-lg/8 text-white">
-                Актуални правни анализи, експертни мнения и ценни съвети –
-                всичко, което трябва да знаете, за да сте информирани и
-                защитени.
+                Latest legal analysis, expert opinions and valuable advice –
+                everything you need to know to stay informed and protected.
               </p>
             </div>
             <svg
@@ -113,9 +112,7 @@ export default async function Blog({ searchParams }) {
               ))}
             </div>
           ) : (
-            <p className="text-gray-600 text-center mt-10">
-              Няма намерени публикации.
-            </p>
+            <p className="text-gray-600 text-center mt-10">No posts found.</p>
           )}
           {/* Pagination Controls */}
           <div className="mt-10 flex justify-center">
@@ -125,11 +122,11 @@ export default async function Blog({ searchParams }) {
                 className="px-4 py-2 mx-2 bg-gray-200 rounded-md"
                 prefetch={true}
               >
-                Предишна
+                Previous
               </Link>
             )}
             <span className="px-4 py-2 mx-2">
-              Страница {currentPage} от {totalPages}
+              Page {currentPage} of {totalPages}
             </span>
             {currentPage < totalPages && (
               <Link
@@ -137,7 +134,7 @@ export default async function Blog({ searchParams }) {
                 className="px-4 py-2 mx-2 bg-gray-200 rounded-md"
                 prefetch={true}
               >
-                Следваща
+                Next
               </Link>
             )}
           </div>

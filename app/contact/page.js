@@ -9,9 +9,9 @@ import Link from "next/link";
 
 export async function generateMetadata() {
   return {
-    title: "Контакти - Адвокатско дружество „Бурков, Радев, Дюлгерска“",
+    title: "Contacts - Burgov, Radev, Djulgerska Law Firm",
     description:
-      "Свържете се с Адвокатско дружество „Бурков, Радев, Дюлгерска“ за правна консултация. Нашият екип е на разположение да отговори на вашите въпроси и да предложи експертни решения. Намерете нашите контакти и адрес тук.",
+      "Contact Burgov, Radev, Djulgerska Law Firm for legal consultation. Our team is available to answer your questions and offer expert solutions. Find our contacts and address here.",
   };
 }
 
@@ -53,7 +53,7 @@ export default async function ContactPage() {
               </svg>
             </div>
             <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-              Свържете се с нас
+              Contact us
             </h2>
             {/* <p className="mt-6 text-lg/8 text-gray-600">
               Proin volutpat consequat porttitor cras nullam gravida at. Orci

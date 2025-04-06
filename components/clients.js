@@ -7,17 +7,16 @@ export default function Clients() {
         <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
           <div className="mx-auto w-full max-w-xl lg:mx-0">
             <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-              Нашите клиенти
+              Clients
             </h2>
             <p className="mt-6 text-lg/8 text-gray-600">
-              Наши клиенти са български и чуждестранни физически и юридически
-              лица. Консултираме и представляваме търговски дружества в сферите
-              на услугите, строителството, енергетиката, както и продуцентски
-              компании, банкови и небанкови финансови институции,
-              неправителствени организации. С оглед всеобхватната защита на
-              интересите на своите клиенти, кантората си сътрудничи с широка
-              гама от специалисти, в това число счетоводители, инженери,
-              застрахователи и др.
+              Our clients are Bulgarian and foreign natural persons and legal
+              entities. We consult and represent companies in the area of
+              services, construction, energy as well as production companies,
+              banking and non-banking financial institutions, non-governmental
+              organisations. Given the comprehensive protection of the interests
+              of our clients, the firm collaborates with a wide range of
+              professionals, including accountants, engineers, insurers etc.
             </p>
           </div>
           <div className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">

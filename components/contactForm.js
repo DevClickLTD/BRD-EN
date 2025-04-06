@@ -91,7 +91,7 @@ export default function ContactForm() {
                 htmlFor="name"
                 className="block text-sm/6 font-semibold text-gray-900"
               >
-                Име*
+                Name*
               </label>
               <div className="mt-2.5">
                 <input
@@ -113,7 +113,7 @@ export default function ContactForm() {
                 htmlFor="email"
                 className="block text-sm/6 font-semibold text-gray-900"
               >
-                Имейл*
+                Email*
               </label>
               <div className="mt-2.5">
                 <input
@@ -135,7 +135,7 @@ export default function ContactForm() {
                 htmlFor="phone-number"
                 className="block text-sm/6 font-semibold text-gray-900"
               >
-                Телефон*
+                Phone*
               </label>
               <div className="mt-2.5">
                 <input
@@ -157,7 +157,7 @@ export default function ContactForm() {
                 htmlFor="subject"
                 className="block text-sm/6 font-semibold text-gray-900"
               >
-                Тема*
+                Subject*
               </label>
               <div className="mt-2.5">
                 <input
@@ -178,7 +178,7 @@ export default function ContactForm() {
                 htmlFor="message"
                 className="block text-sm/6 font-semibold text-gray-900"
               >
-                Съобщение
+                Message
               </label>
               <div className="mt-2.5">
                 <textarea
@@ -197,7 +197,7 @@ export default function ContactForm() {
               className="rounded-md bg-[#95161c] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-gray-300 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               disabled={loading}
             >
-              Изпрати запитване
+              Send
             </button>
           </div>
         </div>

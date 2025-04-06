@@ -18,10 +18,10 @@ export default function Home() {
       <HeroSection />
       <Incentives />
       <Team />
-      <CTA />
+      {/* <CTA /> */}
       <Clients />
-      <Newsletter />
-      <Testimonial />
+      {/* <Newsletter /> */}
+      {/* <Testimonial /> */}
       <Lastestposts />
     </>
   );

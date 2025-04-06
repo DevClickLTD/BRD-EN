@@ -19,11 +19,11 @@ export default function Newsletter() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           <div className="max-w-xl lg:max-w-lg">
             <h2 className="text-4xl font-semibold tracking-tight text-white">
-              Абонирайте се за нашия бюлетин
+              Subscribe to our newsletter
             </h2>
             <p className="mt-4 text-lg text-gray-300">
-              Получавайте ценни правни съвети, анализи и актуални новини
-              директно във вашата поща.
+              Get valuable legal advice, analyses and timely news directly in
+              your inbox.
             </p>
             {loading && (
               <div className="absolute inset-0 flex items-center justify-center bg-opacity-50 z-10 pointer-events-none">
@@ -44,7 +44,7 @@ export default function Newsletter() {
                 name="email"
                 type="email"
                 required
-                placeholder="Въведете Вашия имейл"
+                placeholder="Enter your email"
                 autoComplete="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -54,7 +54,7 @@ export default function Newsletter() {
                 type="submit"
                 className="flex-none rounded-md bg-[#95161C] hover:bg-gray-300 cursor-pointer hover:text-[#000000] px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
-                Абонирайте се
+                Subscribe
               </button>
             </form>
           </div>
@@ -67,12 +67,12 @@ export default function Newsletter() {
                     className="size-6 text-white"
                   />
                 </div>
-                <span className="mt-4">Седмични статии</span>
+                <span className="mt-4">Weekly articles</span>
               </dt>
               <dd className="mt-2 text-base/7 text-gray-400">
-                Всяка седмица подбираме за вас най-актуалните правни теми и
-                експертни анализи. Бъдете информирани, защитени и винаги една
-                стъпка напред.
+                Every week we select for you the most relevant legal topics and
+                expert analyses. Be informed, protected and always one step
+                ahead.
               </dd>
             </div>
             <div className="flex flex-col items-start">
@@ -86,8 +86,9 @@ export default function Newsletter() {
                 <span className="mt-4">Без спам</span>
               </dt>
               <dd className="mt-2 text-base/7 text-gray-400">
-                Обещаваме: само полезна информация, без излишни съобщения.
-                Вашето време е ценно, затова ви изпращаме само най-важното.
+                We promise: only useful information, without unnecessary
+                messages. Your time is valuable, so we only send you the most
+                important things.
               </dd>
             </div>
           </dl>
