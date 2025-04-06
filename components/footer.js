@@ -149,9 +149,7 @@ export default function Footer() {
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
               {/* Страници колона */}
               <div>
-                <h3 className="text-sm/6 font-semibold text-gray-900">
-                  Страници
-                </h3>
+                <h3 className="text-sm/6 font-semibold text-gray-900">Pages</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.pages.map((page) => (
                     <li key={page.name}>
@@ -188,7 +186,7 @@ export default function Footer() {
               {/* Услуги колона */}
               <div>
                 <h3 className="text-sm/6 font-semibold text-gray-900">
-                  Услуги
+                  Services
                 </h3>
                 {servicesLoading ? (
                   <div className="mt-6 flex items-center justify-center">
@@ -231,11 +229,11 @@ export default function Footer() {
         <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
           <div>
             <h3 className="text-sm/6 font-semibold text-gray-900">
-              Абонирайте се за нашия бюлетин
+              Subscribe to our newsletter
             </h3>
             <p className="mt-2 text-sm/6 text-gray-600">
-              Получавайте ценни правни съвети, анализи и актуални новини
-              директно във вашата поща.
+              Get valuable legal advice, analyses, and timely news directly in
+              your inbox.
             </p>
           </div>
           {loading && (
@@ -257,7 +255,7 @@ export default function Footer() {
               name="email-address"
               type="email"
               required
-              placeholder="Въведете Вашия имейл"
+              placeholder="Enter your email"
               autoComplete="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -268,7 +266,7 @@ export default function Footer() {
                 type="submit"
                 className="flex w-full items-center justify-center rounded-md bg-[#95161C] hover:bg-gray-300 cursor-pointer hover:text-[#000000] px-3 py-2 text-sm font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Абонирайте се
+                Subscribe
               </button>
             </div>
           </form>
