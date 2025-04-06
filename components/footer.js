@@ -166,7 +166,7 @@ export default function Footer() {
                   {/* Правна информация в същата колона */}
                   <li className="pt-6 mt-6 border-t border-gray-100">
                     <h3 className="text-sm/6 font-semibold text-gray-900">
-                      Правна информация
+                      Legal information
                     </h3>
                   </li>
                   {navigation.legal.map((item) => (
