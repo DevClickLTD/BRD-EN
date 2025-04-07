@@ -3,10 +3,9 @@ import Link from "next/link";
 
 export async function generateMetadata() {
   return {
-    title:
-      "Политика за поверителност - Адвокатско дружество „Бурков, Радев, Дюлгерска“",
+    title: "Privacy Policy - Law firm „Burkov, Radev, Djulgerska",
     description:
-      "Научете повече за нашата политика за поверителност и как обработваме вашите лични данни.",
+      "Learn more about our privacy policy and how we process your personal data.",
   };
 }
 
@@ -16,80 +15,76 @@ export default async function PrivacyPolicy() {
   return (
     <div className="container mx-auto p-6 max-w-5xl bg-white py-12">
       <h1 className="text-3xl font-bold mb-4 text-gray-800 border-b pb-2">
-        Политика за поверителност
+        Privacy Policy
       </h1>
       <p className="mb-4 text-gray-700">
-        Настоящата Политика за поверителност описва как "Адвокатско дружество
-        Бурков, Радев, Дюлгерска" ("Ние", "Нашата кантора") събира, използва и
-        защитава личните данни на потребителите на нашия уебсайт.
+        This Privacy Policy describes how "Law firm „Burkov, Radev, Djulgerska"
+        ("We", "Our law firm") collects, uses, and protects the personal data of
+        users of our website.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 text-gray-900">
-        1. Събиране на лични данни
+        1. Collection of personal data
       </h2>
       <p className="text-gray-700">
-        Ние събираме следните категории лични данни, предоставени доброволно от
-        вас:
+        We collect the following categories of personal data, provided
+        voluntarily by you:
       </p>
       <ul className="list-disc pl-5 text-gray-700 mt-2">
-        <li>Име и фамилия</li>
-        <li>Имейл адрес (при абонамент за бюлетин)</li>
-        <li>Телефонен номер (при попълване на контактната форма)</li>
-        <li>Съобщения и запитвания, изпратени чрез формата за контакт</li>
-        <li>IP адрес и данни за използване на уебсайта (чрез бисквитки)</li>
+        <li>Name and surname</li>
+        <li>Email address (when subscribing to the newsletter)</li>
+        <li>Phone number (when filling out the contact form)</li>
+        <li>Messages and inquiries sent through the contact form</li>
+        <li>IP address and website usage data (through cookies)</li>
       </ul>
 
       <h2 className="text-2xl font-semibold mt-6 text-gray-900">
-        2. Цели на обработката
+        2. Purposes of processing
       </h2>
       <p className="text-gray-700">
-        Ние обработваме вашите лични данни за следните цели:
+        We process your personal data for the following purposes:
       </p>
       <ul className="list-disc pl-5 text-gray-700 mt-2">
-        <li>Отговор на запитвания и предоставяне на правни услуги</li>
-        <li>Изпращане на бюлетини и правна информация</li>
-        <li>Анализ и подобряване на потребителското изживяване</li>
-        <li>Съобразяване със законовите изисквания</li>
+        <li>Responding to inquiries and providing legal services</li>
+        <li>Sending newsletters and legal information</li>
+        <li>Analyzing and improving user experience</li>
+        <li>Complying with legal requirements</li>
       </ul>
 
       <h2 className="text-2xl font-semibold mt-6 text-gray-900">
-        3. Съхранение и защита на личните данни
+        3. Storage and protection of personal data
       </h2>
       <p className="text-gray-700">
-        Личните данни се съхраняват на защитени сървъри и достъпът до тях е
-        ограничен само до оправомощени лица. Ние не предоставяме вашите данни на
-        трети страни без вашето изрично съгласие, освен ако това не се изисква
-        по закон.
+        Your personal data is stored on secure servers and access to it is
+        limited to authorized personnel. We do not provide your data to third
+        parties without your explicit consent, unless required by law.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6 text-gray-900">4. Cookies</h2>
+      <p className="text-gray-700">
+        Our website uses cookies to improve user experience. You can opt out or
+        manage the use of cookies through your browser settings.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 text-gray-900">
-        4. Бисквитки
+        5. Your rights
       </h2>
       <p className="text-gray-700">
-        Нашият уебсайт използва бисквитки за подобряване на потребителското
-        изживяване. Можете да откажете или управлявате използването на бисквитки
-        чрез настройките на вашия браузър.
-      </p>
-
-      <h2 className="text-2xl font-semibold mt-6 text-gray-900">
-        5. Вашите права
-      </h2>
-      <p className="text-gray-700">
-        Според Общия регламент за защита на данните (GDPR) вие имате следните
-        права:
+        According to the General Data Protection Regulation (GDPR), you have the
+        following права:
       </p>
       <ul className="list-disc pl-5 text-gray-700 mt-2">
-        <li>Право на достъп до вашите лични данни</li>
-        <li>Право на коригиране на неточни данни</li>
-        <li>Право на изтриване ("правото да бъдеш забравен")</li>
-        <li>Право на възражение срещу обработката</li>
-        <li>Право на преносимост на данните</li>
+        <li>Right to access your personal data</li>
+        <li>Right to correct inaccurate data</li>
+        <li>Right to be forgotten ("right to be forgotten")</li>
+        <li>Right to object to processing</li>
+        <li>Right to data portability</li>
       </ul>
 
-      <h2 className="text-2xl font-semibold mt-6 text-gray-900">6. Контакт</h2>
+      <h2 className="text-2xl font-semibold mt-6 text-gray-900">6. Contact</h2>
       <p className="text-gray-700">
-        Ако имате въпроси относно настоящата политика за поверителност или
-        желаете да упражните своите права, моля свържете се с нас на:
+        If you have questions about our privacy policy or wish to exercise your
+        rights, please contact us at:
       </p>
       {contactInfo && (
         <p className="text-gray-700 mt-2">
@@ -103,9 +98,9 @@ export default async function PrivacyPolicy() {
             href={`tel:${contactInfo.phone_number}`}
             className="hover:text-gray-900"
           >
-            <strong>Телефон:</strong> {contactInfo.phone_number} <br />
+            <strong>Phone:</strong> {contactInfo.phone_number} <br />
           </Link>
-          <strong>Адрес:</strong> {contactInfo.address}
+          <strong>Address:</strong> {contactInfo.address}
         </p>
       )}
     </div>
