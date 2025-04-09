@@ -26,16 +26,14 @@ export default function Team() {
             Team
           </h2>
           <p className="mt-6 text-lg/8 text-gray-600 text-center">
-            The team of "Burkov, Radev, Djulgerska" Law Firm uniquely combines
-            the experience, creativity, persistence and thirst for knowledge.
-            The firm offers its clients comprehensive legal services, including
-            issues related to Corporate Law, Real Estate, Labor Law,
-            Intellectual property rights and Litigation.Our lawyers have an
-            extensive experience in consulting some of the newest and fastest
-            growing business areas, such as: Media (TV, Radio and Internet),
-            Telecommunications, Marketing and Advertising, Content creation and
-            New technologies.Working languages: Bulgarian, English, Serbian,
-            Russian and German.
+            The team of "Burkov, Radev, Djulgerska" Law Firm combines in a
+            unique way experience, creativity, perseverance and a thirst for
+            knowledge. We provide comprehensive legal services to individuals
+            and legal entities in the following areas of law: Real Estate,
+            Family and inheritance law, Contracts Law, Labor Law, Corporate Law,
+            Intellectual property Law, Advertising and Media, Civil and
+            Administrative process. Working languages: Bulgarian, English,
+            Serbian, Russian and German.
           </p>
         </div>
         <ul

@@ -104,13 +104,16 @@ export default function Hero() {
                     Law firm
                   </p>
                   <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8 font-display">
-                    Кантората е основана през 2016 г., обединявайки екип от
-                    професионалисти с дългогодишен опит. Предоставяме на своите
-                    клиенти всеобхватно правно обслужване в следните области на
-                    правото: вещно право, семейно и наследствено право,
-                    облигационно право, трудово право, търговско право, право на
-                    интелектуална собственост, реклама и медии, граждански и
-                    административен процес.
+                    The Law Firm was founded in 2016, uniting a team of
+                    professionals with many years of experience. We provide our
+                    clients with comprehensive legal services in the following
+                    areas of law: Real Estate, Family and inheritance law, Labor
+                    law, Corporate Law, Intellectual property rights and
+                    Litigation.
+                  </p>
+                  <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8 font-display">
+                    Working languages: Bulgarian, English, Serbian, Russian and
+                    German.
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <Link

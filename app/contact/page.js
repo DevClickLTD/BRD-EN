@@ -55,11 +55,6 @@ export default async function ContactPage() {
             <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
               Contact us
             </h2>
-            {/* <p className="mt-6 text-lg/8 text-gray-600">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci
-              molestie a eu arcu. Sed ut tincidunt integer elementum id sem.
-              Arcu sed malesuada et magna.
-            </p> */}
             <dl className="mt-10 space-y-4 text-base text-gray-600">
               {contactInfo && (
                 <>
