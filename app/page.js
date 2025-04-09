@@ -21,7 +21,7 @@ export default function Home() {
       {/* <CTA /> */}
       <Clients />
       {/* <Newsletter /> */}
-      {/* <Testimonial /> */}
+      <Testimonial />
       <Lastestposts />
     </>
   );
