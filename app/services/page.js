@@ -29,11 +29,11 @@ export default async function Services() {
           <div className="mx-auto max-w-10/10 py-0 sm:px-6 sm:py-0 lg:px-0">
             <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-12 text-center shadow-2xl sm:px-12">
               <h1 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
-                Нашите услуги
+                Practice Areas
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-300">
-                Разгледайте нашите професионални услуги и открийте как можем да
-                ви помогнем.
+                Explore our professional services and discover how we can help
+                you.
               </p>
 
               <svg
