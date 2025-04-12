@@ -89,14 +89,6 @@ export default async function Services() {
                         <div className="absolute inset-0 rounded-2xl ring-1 ring-gray-900/10 ring-inset" />
                       </div>
                       <div className="flex flex-col w-full">
-                        <div className="flex items-center gap-x-4 text-xs">
-                          <time
-                            dateTime={service.date}
-                            className="text-gray-500"
-                          >
-                            {new Date(service.date).toLocaleDateString()}
-                          </time>
-                        </div>
                         <div className="group relative max-w-[100%]">
                           <h3 className="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
                             <span className="absolute inset-0" />
