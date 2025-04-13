@@ -43,16 +43,13 @@ export default function Hero() {
             <h1 className="text-3xl font-semibold tracking-tight text-pretty text-gray-900 font-display">
               "Burkov, Radev, Djulgerska"
             </h1>
-            <p className="mt-4 text-2xl font-medium font-display">
-              Адвокатско дружество
-            </p>
+            <p className="mt-4 text-2xl font-medium font-display">Law firm</p>
             <p className="mt-6 text-sm font-medium text-pretty text-gray-500 font-display">
-              Кантората е основана през 2016 г., обединявайки екип от
-              професионалисти с дългогодишен опит. Предоставяме на своите
-              клиенти всеобхватно правно обслужване в следните области на
-              правото: вещно право, семейно и наследствено право, облигационно
-              право, трудово право, търговско право, право на интелектуална
-              собственост, реклама и медии, граждански и административен процес.
+              The Law Firm was founded in 2016, uniting a team of professionals
+              with many years of experience. We provide our clients with
+              comprehensive legal services in the following areas of law: Real
+              Estate, Family and inheritance law, Labor law, Corporate Law,
+              Intellectual property rights and Litigation.
             </p>
             <div className="mt-8 flex items-center gap-x-4">
               <Link
