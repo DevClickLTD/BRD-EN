@@ -23,7 +23,7 @@ export default function LatestPosts() {
 
   return (
     <div className="bg-white">
-      <div className="mx-auto w-full py-0 sm:px-6 sm:py-0 lg:px-0">
+      <div className="mx-auto w-full py-0 sm:py-0 lg:px-0">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:px-16">
           <h3 className="text-4xl text-white">Latest news</h3>
           {/* Loader */}
