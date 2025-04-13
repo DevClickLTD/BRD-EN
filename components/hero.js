@@ -56,13 +56,13 @@ export default function Hero() {
                 href="/services"
                 className="rounded-md bg-[#95161C] hover:bg-gray-300 hover:text-[#000000] px-3 py-2 text-sm font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Сфери на дейност
+                Practice Areas
               </Link>
               <Link
                 href="/contact"
                 className="text-sm font-semibold text-gray-900"
               >
-                Контакти <span aria-hidden="true">→</span>
+                Contacts <span aria-hidden="true">→</span>
               </Link>
             </div>
           </div>
