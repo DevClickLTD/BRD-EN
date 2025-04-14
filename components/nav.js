@@ -32,6 +32,7 @@ export default function Navigation() {
   const [showResults, setShowResults] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const searchRef = useRef(null);
+  const [selectedLanguage, setSelectedLanguage] = useState("en");
   const [navigation, setNavigation] = useState({
     categories: [
       {
@@ -143,6 +144,27 @@ export default function Navigation() {
     };
   }, []);
 
+  const handleLanguageChange = (e) => {
+    const newLang = e.target.value;
+    setSelectedLanguage(newLang);
+
+    // Тук само логваме за сега, реалното пренасочване ще бъде добавено от потребителя
+    console.log("Selected language:", newLang);
+
+    // Примерни пренасочвания към поддомейни
+    const languageUrls = {
+      en: "#", // bg.example.com
+      bg: "https://brd-bg.vercel.app/", // en.example.com
+      ru: "https://brd-ru.vercel.app/", // de.example.com
+    };
+
+    // В реален проект това ще пренасочва към актуалните поддомейн URLs
+    if (languageUrls[newLang]) {
+      window.location.href = languageUrls[newLang];
+      console.log("Would redirect to:", languageUrls[newLang]);
+    }
+  };
+
   return (
     <div className="bg-white sticky shadow-md top-0 block w-full z-50">
       {/* Mobile menu */}
@@ -192,6 +214,30 @@ export default function Navigation() {
                   </div>
                 ))}
               </div>
+
+              {/* Мобилен езиков селектор */}
+              <div className="px-4 py-2 border-t border-b border-gray-200">
+                <div className="flex items-center justify-between">
+                  <span className="text-sm font-medium text-gray-900">
+                    Език:
+                  </span>
+                  <div className="relative">
+                    <select
+                      value={selectedLanguage}
+                      onChange={handleLanguageChange}
+                      className="appearance-none bg-white border border-gray-300 rounded-md py-1.5 pl-3 pr-8 text-sm font-medium text-gray-700 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-[#95161C] focus:border-[#95161C] transition-colors"
+                    >
+                      <option value="bg">Bulgarian</option>
+                      <option value="en">English</option>
+                      <option value="ru">Russian</option>
+                    </select>
+                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                      <ChevronDownIcon className="h-4 w-4" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div className="border-b border-gray-200">
                 <TabList className="-mb-px flex space-x-8 px-4">
                   {navigation.categories.map((category) => (
@@ -389,6 +435,23 @@ export default function Navigation() {
                 </PopoverGroup>
               </div>
 
+              {/* Секция 2.5: Езиков селектор */}
+              <div className="hidden lg:flex lg:items-center lg:justify-end mx-2">
+                <div className="relative">
+                  <select
+                    value={selectedLanguage}
+                    onChange={handleLanguageChange}
+                    className="appearance-none bg-white border border-gray-300 rounded-md py-1.5 pl-3 pr-8 text-sm font-medium text-gray-700 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-[#95161C] focus:border-[#95161C] transition-colors"
+                  >
+                    <option value="bg">Bulgarian</option>
+                    <option value="en">English</option>
+                    <option value="ru">Russian</option>
+                  </select>
+                  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                    <ChevronDownIcon className="h-4 w-4" />
+                  </div>
+                </div>
+              </div>
               {/* Секция 3: Търсачка */}
               <div
                 ref={searchRef}
