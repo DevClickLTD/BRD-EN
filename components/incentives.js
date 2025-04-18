@@ -1,21 +1,21 @@
 const incentives = [
   {
-    name: "Експертиза",
+    name: "Expertise",
     imageSrc: "/icons/lawyer-1.svg",
     description:
-      "Експертиза в различни области на правото, позволяваща на клиентите да получат всеобхватно обслужване.",
+      "Expertise in various areas of law, allowing clients to receive comprehensive service",
   },
   {
-    name: "Индивидуален подход",
+    name: "Individual approach",
     imageSrc: "/icons/lawyer-2.svg",
     description:
-      "Прилагаме индивидуален подход спрямо специфичните нужди на всеки клиент.",
+      "We apply an individual approach to the specific needs of each client.",
   },
   {
-    name: "Дългосрочни партньорства",
+    name: "Long-term partnerships",
     imageSrc: "/icons/lawyer-3.svg",
     description:
-      "Градим дългосрочни партньорства, основани на доверие и професионализъм.",
+      "We build long-term partnerships based on trust and professionalism.",
   },
 ];
 

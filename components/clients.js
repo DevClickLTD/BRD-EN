@@ -19,61 +19,31 @@ export default function Clients() {
               professionals, including accountants, engineers, insurers etc.
             </p>
           </div>
-          <div className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
-            <Image
-              alt="Tuple"
-              src="https://tailwindui.com/plus-assets/img/logos/tuple-logo-gray-900.svg"
-              width={105}
-              height={48}
-              quality={80}
-              loading="lazy"
-              className="max-h-12 w-full object-contain object-left"
-            />
-            <Image
-              alt="Reform"
-              src="https://tailwindui.com/plus-assets/img/logos/reform-logo-gray-900.svg"
-              width={104}
-              height={48}
-              quality={80}
-              loading="lazy"
-              className="max-h-12 w-full object-contain object-left"
-            />
-            <Image
-              alt="SavvyCal"
-              src="https://tailwindui.com/plus-assets/img/logos/savvycal-logo-gray-900.svg"
-              width={140}
-              height={48}
-              quality={80}
-              loading="lazy"
-              className="max-h-12 w-full object-contain object-left"
-            />
-            <Image
-              alt="Laravel"
-              src="https://tailwindui.com/plus-assets/img/logos/laravel-logo-gray-900.svg"
-              width={136}
-              height={48}
-              quality={80}
-              loading="lazy"
-              className="max-h-12 w-full object-contain object-left"
-            />
-            <Image
-              alt="Transistor"
-              src="https://tailwindui.com/plus-assets/img/logos/transistor-logo-gray-900.svg"
-              width={158}
-              height={48}
-              quality={80}
-              loading="lazy"
-              className="max-h-12 w-full object-contain object-left"
-            />
-            <Image
-              alt="Statamic"
-              src="https://tailwindui.com/plus-assets/img/logos/statamic-logo-gray-900.svg"
-              width={147}
-              height={48}
-              quality={80}
-              loading="lazy"
-              className="max-h-12 w-full object-contain object-left"
-            />
+          <div className="mx-auto w-full max-w-xl lg:mx-0 lg:max-w-none lg:pl-8">
+            <div className="grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[...Array(10)].map((_, index) => (
+                <div
+                  key={`client-${index + 1}`}
+                  className="w-full flex justify-center"
+                  style={{ width: "calc(100% - 16px)" }}
+                >
+                  <div
+                    className="group relative flex items-center justify-center overflow-hidden rounded-lg bg-gray-50 p-2 shadow-sm transition hover:shadow-md w-full"
+                    style={{ width: "100%" }}
+                  >
+                    <Image
+                      alt={`Клиент ${index + 1}`}
+                      src={`/client-${index + 1}.jpg`}
+                      width={240}
+                      height={180}
+                      quality={90}
+                      loading="lazy"
+                      className="w-full h-auto object-contain transition duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
