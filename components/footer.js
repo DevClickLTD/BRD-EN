@@ -287,7 +287,15 @@ export default function Footer() {
             ))}
           </div>
           <p className="mt-8 text-sm/6 text-gray-600 md:order-1 md:mt-0">
-            &copy; {year} BRD, Inc. All rights reserved.
+            &copy; {year} BRD, Inc. All rights reserved. Powered by{" "}
+            <a
+              href="https://webstation.bg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#95161C]"
+            >
+              WebStation™
+            </a>
           </p>
         </div>
       </div>
