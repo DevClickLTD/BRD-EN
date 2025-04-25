@@ -227,9 +227,9 @@ export default function Navigation() {
                       onChange={handleLanguageChange}
                       className="appearance-none bg-white border border-gray-300 rounded-md py-1.5 pl-3 pr-8 text-sm font-medium text-gray-700 hover:border-gray-400 focus:outline-none focus:ring-2 focus:ring-[#95161C] focus:border-[#95161C] transition-colors"
                     >
-                      <option value="bg">Bulgarian</option>
-                      <option value="en">English</option>
-                      <option value="ru">Russian</option>
+                      <option value="bg">BG</option>
+                      <option value="en">EN</option>
+                      <option value="ru">RU</option>
                     </select>
                     <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                       <ChevronDownIcon className="h-4 w-4" />
