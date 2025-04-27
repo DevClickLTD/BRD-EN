@@ -106,11 +106,8 @@ export default function Hero() {
                     clients with comprehensive legal services in the following
                     areas of law: Real Estate, Family and inheritance law, Labor
                     law, Corporate Law, Intellectual property rights and
-                    Litigation.
-                  </p>
-                  <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8 font-display">
-                    Working languages: Bulgarian, English, Serbian, Russian and
-                    German.
+                    Litigation. Working languages: Bulgarian, English, Serbian,
+                    Russian and German.
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <Link
