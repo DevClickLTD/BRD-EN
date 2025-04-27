@@ -45,7 +45,7 @@ export default function Navigation() {
     pages: [
       { name: "Home", href: "/" },
       { name: "Team", href: "/team" },
-      { name: "Blog", href: "/blog" },
+      // { name: "Blog", href: "/blog" },
       { name: "Contacts", href: "/contact" },
     ],
   });

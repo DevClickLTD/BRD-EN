@@ -22,7 +22,7 @@ export default function Home() {
       <Clients />
       {/* <Newsletter /> */}
       <Testimonial />
-      <Lastestposts />
+      {/* <Lastestposts /> */}
     </>
   );
 }
