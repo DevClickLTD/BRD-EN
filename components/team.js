@@ -23,7 +23,7 @@ export default function Team() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-8xl lg:mx-0">
           <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl text-center">
-            Team
+            The Team
           </h2>
           <p className="mt-6 text-lg/8 text-gray-600 text-center">
             The team of "Burkov, Radev, Djulgerska" Law Firm combines in a

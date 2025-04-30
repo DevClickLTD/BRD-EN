@@ -214,7 +214,7 @@ export default function Footer() {
                               className="text-sm/6 font-medium text-[#95161C] hover:text-gray-900"
                               prefetch={true}
                             >
-                              Всички услуги →
+                              See all →
                             </Link>
                           </div>
                         )}
