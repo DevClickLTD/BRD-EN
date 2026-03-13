@@ -26,7 +26,7 @@ export default function Team() {
             The Team
           </h2>
           <p className="mt-6 text-lg/8 text-gray-600 text-center">
-            The team of "Burkov, Radev, Djulgerska" Law Firm combines in a
+            The team of "Burkov, Radev and Partners" Law Firm combines in a
             unique way experience, creativity, perseverance and a thirst for
             knowledge. We provide comprehensive legal services to individuals
             and legal entities in the following areas of law: Real Estate,

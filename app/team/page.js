@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getMembers } from "../../services/members";
 
 export const metadata = {
-  title: "Екип - Адвокатско дружество „Бурков, Радев, Дюлгерска“",
+  title: "Екип - Адвокатско дружество „Бурков, Радев и партньори“",
   description:
     "Нашите адвокати разполагат с богат опит в правното консултиране на медии, телекомуникации, маркетинг, реклама, съдържание и нови технологии, осигурявайки експертна правна подкрепа и иновативни решения.",
 };
@@ -71,7 +71,7 @@ export default async function Team() {
               About the team
             </h2>
             <p className="mt-6 text-lg/8 text-gray-600">
-              The team of Burgov, Radev, Djulgerska Law Firm combines unique
+              The team of Burkov, Radev and Partners Law Firm combines unique
               experience, creativity, persistence and thirst for knowledge.
             </p>
             <p className="mt-6 text-lg/8 text-gray-600">

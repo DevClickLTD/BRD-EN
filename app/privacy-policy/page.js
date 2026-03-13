@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export async function generateMetadata() {
   return {
-    title: "Privacy Policy - Law firm „Burkov, Radev, Djulgerska",
+    title: "Privacy Policy - Law firm „Burkov, Radev and Partners"",
     description:
       "Learn more about our privacy policy and how we process your personal data.",
   };
@@ -18,7 +18,7 @@ export default async function PrivacyPolicy() {
         Privacy Policy
       </h1>
       <p className="mb-4 text-gray-700">
-        This Privacy Policy describes how "Law firm „Burkov, Radev, Djulgerska"
+        This Privacy Policy describes how "Law firm „Burkov, Radev and Partners"
         ("We", "Our law firm") collects, uses, and protects the personal data of
         users of our website.
       </p>

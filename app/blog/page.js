@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { language } from "@/services/api";
 export const metadata = {
-  title: "Blog - Burgov, Radev, Djulgerska Law Firm",
+  title: "Blog - Burkov, Radev and Partners Law Firm",
   description:
-    "Discover the latest legal analysis, expert advice and news in the blog of Burgov, Radev, Djulgerska Law Firm. Follow the latest trends in law, business and technology.",
+    "Discover the latest legal analysis, expert advice and news in the blog of Burkov, Radev and Partners Law Firm. Follow the latest trends in law, business and technology.",
 };
 
 export default async function Blog({ searchParams }) {

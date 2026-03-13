@@ -9,9 +9,9 @@ import Link from "next/link";
 
 export async function generateMetadata() {
   return {
-    title: "Contacts - Burgov, Radev, Djulgerska Law Firm",
+    title: "Contacts - Burkov, Radev and Partners Law Firm",
     description:
-      "Contact Burgov, Radev, Djulgerska Law Firm for legal consultation. Our team is available to answer your questions and offer expert solutions. Find our contacts and address here.",
+      "Contact Burkov, Radev and Partners Law Firm for legal consultation. Our team is available to answer your questions and offer expert solutions. Find our contacts and address here.",
   };
 }
 
