@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export async function generateMetadata() {
   return {
-    title: "Privacy Policy - Law firm „Burkov, Radev and Partners"",
+    title: "Privacy Policy - Burkov, Radev and Partners Law Firm",
     description:
       "Learn more about our privacy policy and how we process your personal data.",
   };
