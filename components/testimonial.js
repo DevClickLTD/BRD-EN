@@ -46,10 +46,10 @@ export default function Testimonial() {
   }, []);
 
   return (
-    <section className="relative h-[300px] sm:h-[400px] w-full overflow-hidden">
+    <section className="relative h-[400px] sm:h-[600px] w-full overflow-hidden">
       <div
         ref={parallaxRef}
-        className="absolute w-full h-[300px] sm:h-[600px] bg-cover bg-center bg-no-repeat transition-transform duration-300 ease-out md:bg-top"
+        className="absolute w-full h-[400px] sm:h-[800px] bg-cover bg-center bg-no-repeat transition-transform duration-300 ease-out md:bg-top"
         style={{
           backgroundImage: "url('/brd-team.jpg')",
           transform: "translateY(0)",
